@@ -2,7 +2,7 @@
 # Element: A interactable HTML node, like a button, input, link, etc.
 # Avoid: Using `all` method to find a single node
 # #find - returns only a single node or raise an error if not found
-describe 'Find techniques summary' do
+describe 'Find a single element techniques summary' do
   it 'find a html node by CSS selector' do
     find(:css, 'input[type="email]')
   end
